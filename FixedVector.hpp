@@ -20,7 +20,7 @@ class FixedVector
 
     // Queries
     T &         at        ( std::size_t index );                          // Checks bounds, throws std::range_error
-    T &         operator[]( std::size_t index );                          // No bonds checking
+    T &         operator[]( std::size_t index );                          // No bounds checking
 
     std::size_t size();
     bool        empty();
