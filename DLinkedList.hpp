@@ -26,7 +26,7 @@ class DLinkedList
 
     Data_t & back();                                         // return list's back element
     void     append( const Data_t & element );               // add element to back of list (aka push_back)
-    void     removeBack();                                   // remove element at front of list (aka pop_back)
+    void     removeBack();                                   // remove element at back of list (aka pop_back)
 
     Iterator insertBefore( const Iterator & position, const Data_t & element ); // Inserts element into list before the one occupied at position
     Iterator remove      ( const Iterator & position                         ); // Removes from list the element occupied at position
